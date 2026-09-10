@@ -1,17 +1,39 @@
-# chinese_talk
+# 📱 Class Video Meeting App
 
-A new Flutter project.
+A real-time video calling and meeting application built with **Flutter** and **Agora**, designed for online classes and virtual meetups with teachers and classmates.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+*   **Real-Time Video & Audio:** High-quality peer-to-peer and group video conferencing powered by the Agora RTC Engine.
+*   **Cross-Platform Support:** Built using Flutter for seamless performance on Android and iOS.
+*   **Permission Handling:** Automated runtime permission requests for camera and microphone access.
+*   **Simple UI:** Clean, intuitive interface for joining and leaving meeting rooms quickly.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tech Stack & Packages
+
+*   **Framework:** [Flutter](https://flutter.dev/) (Dart)
+*   **Video/Audio SDK:** [`agora_rtc_engine`](https://pub.dev/packages/agora_rtc_engine)
+*   **Permissions:** [`permission_handler`](https://pub.dev/packages/permission_handler)
+
+---
+
+## 📋 Prerequisites
+
+Before you begin, ensure you have the following installed:
+*   [Flutter SDK](https://docs.flutter.dev/get-started/install) (latest stable version recommended)
+*   An active account on [Agora.io](https://www.agora.io/) to generate your App ID and temporary tokens.
+
+---
+
+## ⚙️ Getting Started
+
+Follow these steps to set up and run the project locally:
+
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/your-username/laoshi-meeting-app.git](https://github.com/your-username/laoshi-meeting-app.git)
+cd laoshi-meeting-app
